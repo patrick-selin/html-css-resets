@@ -1,0 +1,59 @@
+:root {
+  /* primary colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* neutral colors */
+  --very-pale-blue: hsl(225, 100%, 94%);
+  --desatured-blue: hsl(245, 75%, 52%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: thistle;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
