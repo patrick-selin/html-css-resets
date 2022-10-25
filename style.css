@@ -1,51 +1,47 @@
 :root {
-  /* primary colors */
-  --pale-blue: hsl(225, 100%, 94%);
-  --bright-blue: hsl(245, 75%, 52%);
+    /* primary colors */
+    --main-bg-color: hsl(233, 47%, 7%);
+    --color1: hsl(244, 38%, 16%);
+    --color2: hsl(277, 64%, 61%);
 
-  /* neutral colors */
-  --very-pale-blue: hsl(225, 100%, 94%);
-  --desatured-blue: hsl(245, 75%, 52%);
-  --dark-blue: hsl(223, 47%, 23%);
-}
-
-body {
-  background-color: thistle;
+    /* neutral colors */
+    --white: hsl(0, 0%, 100%) --p--main-text:hsla(0, 0%, 100%, 0.75);
+    --color3: hsla(0, 0%, 100%, 0.6);
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
 html,
 body {
-  height: 100vh;
+    height: 100vh;
 }
 
+
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: thistle;
 }
 
 img,
 picture,
 svg {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 input,
 button,
 textarea,
 select {
-  font: inherit;
+    font: inherit;
 }
 
 p,
@@ -55,5 +51,5 @@ h3,
 h4,
 h5,
 h6 {
-  overflow-wrap: break-word;
+    overflow-wrap: break-word;
 }
